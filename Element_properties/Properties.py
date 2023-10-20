@@ -29,7 +29,9 @@ cap: Dict[str, Any] = {
 url = 'http://127.0.0.1:4723/wd/hub'
 driver = webdriver.Remote(url, options=AppiumOptions().load_capabilities(cap))
 
-print("Current package", driver.current_package)
-print("Current activity", driver.current_activity)
-print("Current context", driver.current_context)
-print("Current orientation", driver.orientation)
+ele = driver.find_element(AppiumBy.CLASS_NAME, 'android.widget.Button')
+print("Is displayed: ", ele.is_displayed())
+print("Is enabled: ", ele.is_enabled())
+print("Is selected: ", ele.is_selected())
+print("Size: ", ele.size)
+print("Location: ", ele.location)
