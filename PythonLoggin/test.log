@@ -1,0 +1,20 @@
+CRITICAL:root:this is critical
+ERROR:root:this is an errror
+WARNING:root:this is a warning
+INFO:root:this is an info
+DEBUG:root:this is debugging
+071123 05:36:55 PM: CRITICAL: this is critical
+071123 05:36:55 PM: ERROR: this is an errror
+071123 05:36:55 PM: WARNING: this is a warning
+071123 05:36:55 PM: INFO: this is an info
+071123 05:36:55 PM: DEBUG: this is debugging
+07/11/23 05:38:33 PM: CRITICAL: this is critical
+07/11/23 05:38:33 PM: ERROR: this is an errror
+07/11/23 05:38:33 PM: WARNING: this is a warning
+07/11/23 05:38:33 PM: INFO: this is an info
+07/11/23 05:38:33 PM: DEBUG: this is debugging
+07/11/23 05:39:22 PM Tuesday: CRITICAL: this is critical
+07/11/23 05:39:22 PM Tuesday: ERROR: this is an errror
+07/11/23 05:39:22 PM Tuesday: WARNING: this is a warning
+07/11/23 05:39:22 PM Tuesday: INFO: this is an info
+07/11/23 05:39:22 PM Tuesday: DEBUG: this is debugging
